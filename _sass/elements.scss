@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Poppins Bold";
+    src: url("./fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url("./fonts/NotoSans-Regular.ttf") format("truetype");
+}
+
 html {
 	background: #2b2b40;
 }
@@ -8,7 +18,11 @@ html, body {
 }
 
 body {
-	font-family: "San Francisco", "Helvetica Neue", "Helvetica", "Arial";
+	font-family: "Noto Sans", "Helvetica Neue", "Helvetica", "Arial";
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Poppins Bold";
 }
 
 a {
