@@ -39,7 +39,9 @@ header {
 		line-height: 0;
 
 		a {
-			display: inline-block;
+			display: flex;
+			align-items: center;
+			font-family: "Poppins Bold";
 		}
 
 		img {
